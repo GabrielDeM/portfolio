@@ -1,0 +1,21 @@
+@import 'src/styles/_vars';
+
+#notfound {
+  width: 55em;
+  height: 592px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 1em 0;
+}
+
+.flex-div {
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.error-text {
+  font-size: 5em;
+}

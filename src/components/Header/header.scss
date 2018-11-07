@@ -1,0 +1,41 @@
+@import 'src/styles/_vars';
+
+#header {
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 3em;
+  padding: 2em 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.twitter-icon {
+  color: #1da1f2;
+  width: 40px;
+  height: 40px;
+}
+
+.facebook-icon {
+  color: #4267b2;
+  width: 40px;
+  height: 40px;
+}
+
+.linkedin-icon {
+  color: #069;
+  width: 40px;
+  height: 40px;
+}
+
+.github-icon {
+  color: #24292e;
+  width: 40px;
+  height: 40px;
+}
+
+.title {
+  font-size: 2.5em;
+  font-weight: bold lighter;
+  text-align: center;
+  background-color: white;
+}
