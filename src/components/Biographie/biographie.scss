@@ -2,8 +2,69 @@
 
 #biographie {
   width: 55em;
-  height: 592px;
   margin: 0 auto;
   background-color: white;
   padding: 1em 0;
+  border-left: 1px solid red;
+  border-right: 1px solid red;
+  padding-left: 5em;
+  padding-right: 5em;
+}
+
+.bio-icon {
+  height: 4em;
+  width: 4em;
+  padding: .2em;
+}
+
+.code-icon {
+  color: #22b648;
+}
+
+.react-icon {
+  color: #61dafb;
+}
+
+.soleil-icon {
+  display: none;
+  color: #FBFB05;
+}
+
+.avion-icon {
+  color: #df7f09;
+}
+
+.bio-p {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  letter-spacing: .05em;
+  margin-bottom: 3em;
+}
+
+.oclock-a {
+  color: red;
+
+  &:hover {
+    color: darken(red, 15%);
+  }
+}
+
+.react-span {
+  color: #61dafb;
+
+  &:hover::after {
+    content: attr(data-descr);
+  }
+}
+
+.soleil-span {
+  color: #cad712;
+
+  &:hover + .soleil-icon {
+    display: block;
+    position: fixed;
+    left: 5%;
+    top: 35%;
+    margin: 3em auto 0;
+  }
 }

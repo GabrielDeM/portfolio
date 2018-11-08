@@ -21,9 +21,9 @@ const Retour = () => (
   <div id="retour">
     <Link
       to="/"
-      className="retour-text"
     >
-      <FaChevronLeft className="chevron-icon" />Home
+      <FaChevronLeft className="chevron-icon" />
+      <span className="retour-text">Home</span>
     </Link>
   </div>
 );

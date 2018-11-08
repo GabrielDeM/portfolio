@@ -47,6 +47,7 @@
     "@babel/polyfill": "*",
     "axios": "*",
     "classnames": "*",
+    "html-react-parser": "^0.4.7",
     "prop-types": "*",
     "react": "*",
     "react-bulma-components": "2.2.0",
