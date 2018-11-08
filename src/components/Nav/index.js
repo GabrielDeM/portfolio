@@ -16,6 +16,7 @@ import navData from 'src/data/nav';
  */
 const Nav = () => (
   <div className="nav-div">
+    {console.log(navData)}
     {
       navData.map(data => (
         <Link

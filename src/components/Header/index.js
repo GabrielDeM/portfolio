@@ -22,22 +22,22 @@ import './header.scss';
  */
 const Header = () => (
   <div id="header">
-    <a href="https://twitter.com/scamsc2">
-      <FaTwitter className="twitter-icon" />
+    <a href="https://twitter.com/scamsc2" className="social-icons twitter-icon">
+      <FaTwitter className="" />
     </a>
-    <a href="https://www.facebook.com/gabrielmouracanto">
-      <FaFacebookF className="facebook-icon" />
+    <a href="https://www.facebook.com/gabrielmouracanto" className="social-icons facebook-icon">
+      <FaFacebookF className="" />
     </a>
     <Link
       to="/"
     >
       <h1 className="title">Gabriel De Moura</h1>
     </Link>
-    <a href="https://www.linkedin.com/in/gabriel-de-moura/">
-      <FaLinkedin className="linkedin-icon" />
+    <a href="https://www.linkedin.com/in/gabriel-de-moura/" className="social-icons linkedin-icon">
+      <FaLinkedin className="" />
     </a>
-    <a href="https://github.com/GabrielDeM">
-      <FaGithub className="github-icon" />
+    <a href="https://github.com/GabrielDeM" className="social-icons github-icon">
+      <FaGithub className="" />
     </a>
   </div>
 );

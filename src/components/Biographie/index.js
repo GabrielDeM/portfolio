@@ -7,7 +7,6 @@ import {
   FaCode,
   FaReact,
   FaPlaneDeparture,
-  FaSun,
 } from 'react-icons/fa';
 /**
  * Local import
@@ -25,6 +24,16 @@ import './biographie.scss';
 const Biographie = () => (
   <div id="biographie">
     <Retour />
+    <div className="div-img">
+      <img src="src/data/images/Gabriel-droit.JPG" alt="Gabriel" className="img-biographie" />
+    </div>
+    <div className="bio-img">
+      <ul>
+        <li><span className="span-bio_img">Age:</span> 19 ans</li>
+        <li><span className="span-bio_img">Ville:</span> Limoges</li>
+        <li><span className="span-bio_img">Tel:</span> 06.21.06.63.25</li>
+      </ul>
+    </div>
     <p className="bio-p">
       <FaCode className=" bio-icon code-icon" />
       {/* {textData.code} */}
@@ -37,7 +46,6 @@ const Biographie = () => (
     <p className="bio-p asd">
       <FaPlaneDeparture className=" bio-icon avion-icon" />
       {Parser(textData.voyage)}
-      <FaSun className="bio-icon soleil-icon" />
     </p>
   </div>
 );

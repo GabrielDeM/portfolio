@@ -1,8 +1,4 @@
 export default [
-  // {
-  //   name: 'Home',
-  //   route: '/',
-  // },
   {
     id: 1,
     name: 'Bio',

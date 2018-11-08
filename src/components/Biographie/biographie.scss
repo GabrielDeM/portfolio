@@ -11,6 +11,31 @@
   padding-right: 5em;
 }
 
+.div-img {
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.img-biographie {
+  width: 250px;
+  margin-top: -80px;
+  border-radius: 50%;
+}
+
+.bio-img {
+  text-align: center;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  letter-spacing: .05em;
+}
+
+.span-bio_img {
+  font-weight: 700;
+}
+
 .bio-icon {
   height: 4em;
   width: 4em;
@@ -23,11 +48,6 @@
 
 .react-icon {
   color: #61dafb;
-}
-
-.soleil-icon {
-  display: none;
-  color: #FBFB05;
 }
 
 .avion-icon {
@@ -52,19 +72,11 @@
 .react-span {
   color: #61dafb;
 
-  &:hover::after {
+  &:hover:after {
     content: attr(data-descr);
   }
 }
 
 .soleil-span {
   color: #cad712;
-
-  &:hover + .soleil-icon {
-    display: block;
-    position: fixed;
-    left: 5%;
-    top: 35%;
-    margin: 3em auto 0;
-  }
 }
