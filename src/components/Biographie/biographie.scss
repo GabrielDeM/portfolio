@@ -1,7 +1,7 @@
 @import 'src/styles/_vars';
 
 #biographie {
-  width: 55em;
+  max-width: 55em;
   margin: 0 auto;
   background-color: white;
   padding: 1em 0;
@@ -71,10 +71,6 @@
 
 .react-span {
   color: #61dafb;
-
-  &:hover:after {
-    content: attr(data-descr);
-  }
 }
 
 .soleil-span {

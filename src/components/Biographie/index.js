@@ -32,6 +32,7 @@ const Biographie = () => (
         <li><span className="span-bio_img">Age:</span> 19 ans</li>
         <li><span className="span-bio_img">Ville:</span> Limoges</li>
         <li><span className="span-bio_img">Tel:</span> 06.21.06.63.25</li>
+        <li><span className="span-bio_img">Email:</span> gabrielmouracanto@hotmail.com</li>
       </ul>
     </div>
     <p className="bio-p">
