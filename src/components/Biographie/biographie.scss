@@ -76,3 +76,26 @@
 .soleil-span {
   color: #cad712;
 }
+
+@media (max-width: 1000px) {
+  #biographie {
+    border: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .bio-icon {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .bio-p {
+    text-align: center;
+  }
+}
+
+@media (max-width: 400px) {
+  .bio-img {
+    text-align: center;
+  }
+}

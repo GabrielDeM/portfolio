@@ -96,3 +96,9 @@
     background-color: lighten($level-bg-color, $level-porcent-color);
   }
 }
+
+@media (max-width: 1000px) {
+  #competences {
+    border: none;
+  }
+}

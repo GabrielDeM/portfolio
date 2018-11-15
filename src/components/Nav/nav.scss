@@ -61,3 +61,33 @@
     bottom: 0;
   }
 }
+
+@media (max-width: 1200px) {
+  .nav-div {
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    width: 30em;
+    height: 20em;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 700px) {
+  .nav-div {
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    width: 25em;
+    height: 17em;
+  }
+}
+
+@media (min-width: 10px) and (max-width: 400px) {
+  .nav-div {
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    width: 15em;
+    height: 10em;
+  }
+}
