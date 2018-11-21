@@ -22,7 +22,7 @@ import './header.scss';
  */
 const Header = () => (
   <div id="header">
-    <a href="https://twitter.com/scamsc2" className="social-icons twitter-icon">
+    <a href="https://twitter.com/GabrielMouraJS" className="social-icons twitter-icon">
       <FaTwitter className="" />
     </a>
     <a href="https://www.facebook.com/gabrielmouracanto" className="social-icons facebook-icon">
@@ -32,6 +32,7 @@ const Header = () => (
       to="/"
     >
       <h1 className="title">Gabriel De Moura</h1>
+      <span className="slider" />
     </Link>
     <a href="https://www.linkedin.com/in/gabriel-de-moura/" className="social-icons linkedin-icon">
       <FaLinkedin className="" />

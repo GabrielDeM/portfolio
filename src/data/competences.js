@@ -1,7 +1,7 @@
 export default
 {
   htmlcssResume: 'Linux, Git, Intégration, Opquast, SEO, Responsive, Bootstrap, Bulma, Flex, Grid, ...',
-  jsResume: 'Syntaxe ES2016, State, Webpack, Babel, React-Redux, React-Router, Axios, Lifecycles, Reducers, MiddleWare, programmation fonctionnelle, ...',
+  jsResume: 'Syntaxe ES2016, State, Webpack, Babel, React-Redux, React-Router, Socket,  Axios, Lifecycles, Reducers, MiddleWare, programmation fonctionnelle, ...',
   phpResume: 'Apache, PHPMyAdmin, POO, MVC, PDO, Altorouter, Namespace, Plates, Composer, ...',
 
   htmlcss: [
@@ -20,7 +20,12 @@ export default
     {
       id: 1,
       name: 'react',
-      niv: 7,
+      niv: 8,
+    },
+    {
+      id: 1,
+      name: 'node',
+      niv: 5,
     },
     {
       id: 1,

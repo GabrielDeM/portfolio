@@ -27,6 +27,16 @@ const Competences = () => (
     <Retour />
     <div id="competences-align-center">
       <div className="competences-div">
+        <FaJsSquare className="competences-icons js-icon" />
+        <p className="competence-resume">{competencesData.jsResume}</p>
+        {
+          competencesData.js.map(data => (
+            <Competence key={data.id} {...data} />
+          ))
+        }
+      </div>
+      <span className="division" />
+      <div className="competences-div">
         <div className="html_css-div">
           <FaHtml5 className="competences-icons html-icon" />
           <FaCss3Alt className="competences-icons css-icon" />
@@ -38,15 +48,7 @@ const Competences = () => (
           }
         </div>
       </div>
-      <div className="competences-div">
-        <FaJsSquare className="competences-icons js-icon" />
-        <p className="competence-resume">{competencesData.jsResume}</p>
-        {
-          competencesData.js.map(data => (
-            <Competence key={data.id} {...data} />
-          ))
-        }
-      </div>
+      <span className="division" />
       <div className="competences-div">
         <FaPhp className="competences-icons php-icon" />
         <p className="competence-resume">{competencesData.phpResume}</p>
