@@ -22,7 +22,7 @@ const Nav = () => (
         <Link
           key={data.id}
           to={data.route}
-          className="nav-link"
+          className={`nav-link nav-link-${data.id}`}
           data-inf={data.name}
         >
           <img src={data.img} alt="" />
